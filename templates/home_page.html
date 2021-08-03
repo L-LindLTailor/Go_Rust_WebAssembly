@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Go and Rust the best!!</title>
+</head>
+<body>
+<h1>Go and Rust the best!!</h1>
+
+{{ if gt .Age 20 }}
+<p>Тебе больше чем 20 лет, твой возраст {{ .Age }} лет.</p>
+{{ else }}
+<p>Ты младше 20 лет!</p>
+{{ end }}
+
+<ul>
+    {{ range .Hobbies }}
+        <li>{{ . }}</li>
+    {{ else }}
+        <li>Записей нет.</li>
+    {{ end }}
+</ul>
+
+<p>Имя: {{ .Name }}</p>
+<p>Возраст: {{ .Age }} лет</p>
+<p>Счет: {{ .Money }} $</p>
+</body>
+</html>

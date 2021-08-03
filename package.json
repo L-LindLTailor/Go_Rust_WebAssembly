@@ -1,0 +1,24 @@
+{
+  "name": "go_test_site",
+  "version": "1.0.0",
+  "description": "Rust vs AssemblyScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "start_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LindLTailo/Go_Rust_WebAssembly.git"
+  },
+  "keywords": [
+    "Rust",
+    "Go",
+    "AssemblyScript"
+  ],
+  "author": "David Vartanyna @LindLTailor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LindLTailo/Go_Rust_WebAssembly/issues"
+  },
+  "homepage": "https://github.com/LindLTailo/Go_Rust_WebAssembly#readme"
+}
