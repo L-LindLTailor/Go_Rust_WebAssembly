@@ -1,7 +1,7 @@
 {
   "name": "go_test_site",
   "version": "1.0.0",
-  "description": "Rust vs AssemblyScript",
+  "description": "Go, Rust vs AssemblyScript",
   "main": "index.js",
   "scripts": {
     "test": "start_test"
@@ -15,7 +15,7 @@
     "Go",
     "AssemblyScript"
   ],
-  "author": "David Vartanyna @LindLTailor",
+  "author": "David Vartanyan @LindLTailor",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LindLTailo/Go_Rust_WebAssembly/issues"
